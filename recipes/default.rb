@@ -1,3 +1,7 @@
+include_recipe "libfreetype"
+include_recipe "libjpeg"
+include_recipe "libpng"
+
 packages = Array.new
 
 case node[:lsb][:codename]
